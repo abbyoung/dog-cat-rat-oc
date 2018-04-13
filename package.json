@@ -1,0 +1,21 @@
+{
+  "name": "static-component",
+  "description": "",
+  "version": "1.0.17",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "static": [
+        "img",
+        "js"
+      ],
+      "template": {
+        "src": "template.jade",
+        "type": "oc-template-jade"
+      }
+    }
+  },
+  "devDependencies": {
+    "oc-template-jade-compiler": "6.2.2"
+  }
+}
